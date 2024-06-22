@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<style>
+  :root{
+    --maincolor: #000000;
+}
+    *{
+        margin:0px;
+        padding: 0px;
+    }
+    .header{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1px ;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+z-index: 1;
+}
+.nav-item a{
+  color: black;
+          font-size: 30px;
+          margin-left: 20px;
+          margin-right: 10px;
+          text-decoration: none;
+}
+.nav-item a:hover{
+   
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    background-color:rgb(167, 165, 165);
+    font-style: white;
+}
+#bg{
+  margin-top: 100px;
+  ;
+}
+#img{
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+#lorem{
+  top: -600px;
+  font-size: small;
+}
+h2{
+  margin-top: -14%;
+  font-size: 50px;
+}
+</style>
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="DEMO.html">
+            <img src="fashion-logo.jpeg" width="130px" height="130px" id="img"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </nav>
+
+    </header>
+    <div class="bg">
+      <img src="img.jpeg" style="max-width: 100%" id="bg"></div>
+      <div>
+      <div class="container">
+   <div class="row" id="hg">
+    <div class="col-6">
+      <p></p>
+    </div> 
+   
+    <div class="col-1"></div>
+          <div class="col-4" id="lorem">
+      <h1>Summer <br>collections</h1>, ipsum dolor sit amet consectetur adipisicing elit.
+      Nostrum explicabo odit unde ad, ipsam delectus
+      hic sint officiis accusantium tenetur et, eum, consequatur
+      perspiciatis cum molestias dolor dicta aperiam consequuntur!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+      asperiores nesciunt illo dolorem hic. Iure, vel impedit!
+      Molestias aliquam, doloremque ut ipsum, sequi quibusdam
+      tempora, autem vitae asperiores laborum aperiam?
+     
+    </div>
+   </div>
+   </div>
+    </div>
+    <center><h2>Our Gallery</h2></center>
+
+   <!-- <img id="image" src="top1.JPG" alt="image">
+
+JavaScript:
+<script>
+var image = document.getElementById("image");
+
+var images = ["top1.jpg", "top2.jpg", "top3.jpg"];
+
+var index = 0;
+
+function updateImage() {
+
+image.src = images[index];
+
+index = (index + 1) % images.length;
+
+}
+
+setInterval(updateImage, 5000);
+</script>-->
+<a href="index.html" id="logo">
+  <img src="fashion-logo.jpeg" width="130px" height="130px"></a>
+<nav class="navbar">
+  <a href="index.html">Home</a>
+  <a href="women.html">Women</a>
+  <a href="men.html">Men</a>
+  <a href="#gallery">Gallery</a>
+  <a href="contact.html">Contact</a>
+</nav>
+</body>
+</html>
