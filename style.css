@@ -464,7 +464,7 @@ h3{
 }
 .grid-container2 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     padding: 0px;
     color: black;
     font-family: arial;
