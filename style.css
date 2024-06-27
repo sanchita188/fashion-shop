@@ -127,7 +127,7 @@ font-family: serif;
 .lorem{
 font-size: small;
 margin-top: -20%;
-
+text-transform: none;
 }
 .hii{
     position: relative;
@@ -172,48 +172,29 @@ h3{
     color: yellow;
 }
 #denim{
-    width: 490px;
-    height: 550px;
-    margin-top: -250px;
-    align-items: center;
-    margin-left: 33.6%;
+    width: 400px;
+    height: 400px;
 }
 #shirt{
-    width: 450px;
-    height: 550px;
-    margin-top: -650px;
-    align-items: center;
-    margin-left: 1000px;
-    margin-bottom: 100px;
+   width: 400px;
+   height: 400px;
 }
 #shoes{
-    width: 480px;
-    height: 400px;
-    margin-top: 10px;
-    align-items: center;
+   width: 400px;
+   height: 400px;
 }
 #dress{
-    width: 400px;
-    height: 500px;
-    margin-top: -250px;
-    align-items: center;
+   width: 400px;
+   height: 400px;
 }
 #glasses{
-    width: 490px;
-    height: 380px;
-    margin-top: -300px;
-    align-items: center;
-    margin-left: 10px;
-    margin-left: 33.6%;
+   width: 400px;
+   height: 400px;
 
 }
 #bag{
-    width: 450px;
-    height: 500px;
-    margin-top: -500px;
-    align-items: center;
-    margin-left: 1000px;
-    margin-bottom: 20px;
+    width: 400px;
+    height: 400px;
 }
 .blue{
     background-color: aqua;
@@ -226,7 +207,7 @@ h3{
 }
 .hey{
     position: absolute;
-    top: 300%;
+    top: 270%;
     left: 50%;
     right: -10%;
     transform: translate(-20%,-20%);
@@ -415,11 +396,14 @@ h3{
 .a{
     color: white;
 }
+.HlWMPX2{
+    text-decoration: none;
+    color: black;
+}
 .HlWMPX{
     text-decoration: none;
     color: white;
 }
-
 .strike{
     text-decoration: line-through;
 }
@@ -464,7 +448,7 @@ h3{
 }
 .grid-container2 {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     padding: 0px;
     color: black;
     font-family: arial;
@@ -485,11 +469,23 @@ h3{
 }
 .cart{
     display: flex;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     margin-right: 10px;
 }
 
-
+.grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  .grid-item3 {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
 
 
 
@@ -558,12 +554,12 @@ h3{
 }
 .btn_get_two:hover {
     background: transparent;
-    color: #5e2ced;
+    color: #000000;
 }
 .btn_get:hover {
     color: #fff;
-    background: #6754e2;
-    border-color: #6754e2;
+    background: #ffffff;
+    border-color: #000000;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -575,7 +571,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 
 .new_footer_top .f_widget.about-widget .f_list li a:hover {
-    color: #5e2ced;
+    color: #000000;
 }
 .new_footer_top .f_widget.about-widget .f_list li {
     margin-bottom: 11px;
@@ -627,19 +623,19 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .btn_get_two {
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: #5e2ced;
-    border-color: #5e2ced;
+    background: #252525;
+    border-color: #000000;
     color: #fff;
 }
 
 .btn_get_two:hover {
     background: transparent;
-    color: #5e2ced;
+    color: #000000;
 }
 
 .new_footer_top .f_social_icon a:hover {
-    background: #5e2ced;
-    border-color: #5e2ced;
+    background: #000000;
+    border-color: #000000;
   color:white;
 }
 .new_footer_top .f_social_icon a + a {
